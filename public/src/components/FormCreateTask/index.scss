@@ -1,0 +1,18 @@
+.create-task {
+    margin-bottom: 10px;
+}
+.create-task__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.message {
+    text-align: center;
+    &--success {
+        color: #20c997;
+    }
+    &--error {
+        color: #ff4136;
+    }
+}

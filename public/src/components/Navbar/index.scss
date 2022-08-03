@@ -1,0 +1,11 @@
+// .container-fluid {
+//     display: flex;
+// }
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    flex-basis:auto;
+}
+.nav-link--button {
+    cursor: pointer;
+}

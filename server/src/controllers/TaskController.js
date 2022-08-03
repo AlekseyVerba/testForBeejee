@@ -26,7 +26,7 @@ class TaskController {
         const { id } = req.params
         const { value } = req.body
 
-        await taskService.updateTask(id, {value})
+        await taskService.updateTask(id, {value, isEdit: true})
 
         return res.status(200).json({status: true, message: "Текст изменен"})
     }

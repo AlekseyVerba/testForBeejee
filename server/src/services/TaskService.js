@@ -25,7 +25,7 @@ class TaskService {
     }
 
     async updateTask(id, newProperty) {
-        return await TaskModel.update({...newProperty, isEdit: true}, {where: {id}})
+        return await TaskModel.update({...newProperty}, {where: {id}})
     }
 
 }

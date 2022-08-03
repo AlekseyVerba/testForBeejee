@@ -1,0 +1,8 @@
+const types = {
+    CHANGE_USER: "CHANGE_USER",
+    CHANGE_LOAD: "CHANGE_LOAD_USER",
+    CHANGE_SUCCESS: "CHANGE_SUCCESS_USER",
+    CHANGE_ERROR: "CHANGE_ERROR_USER"
+}
+
+export default types

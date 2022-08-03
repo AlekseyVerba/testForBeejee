@@ -1,0 +1,6 @@
+.todo-item-bottom {
+    padding: var(--bs-toast-padding-y) var(--bs-toast-padding-x);
+    border-top: var(--bs-toast-border-width) solid var(--bs-toast-header-border-color);
+    display: flex;
+    justify-content: space-between;
+}
